@@ -1,0 +1,5 @@
+﻿# Language statistics override
+frontend/src/App.jsx linguist-vendored
+frontend/src/VideoProcessing.jsx linguist-vendored
+frontend/src/AudioProcessing.jsx linguist-vendored
+frontend/src/AudioDetection.jsx linguist-vendored
