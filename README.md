@@ -360,4 +360,3 @@ $$\text{Verdict} = \begin{cases}
 
 [MIT](LICENSE)
 
-*“Truth is much too complicated to allow anything but approximations.”* — John von Neumann
