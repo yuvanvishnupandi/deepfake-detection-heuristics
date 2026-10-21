@@ -1,416 +1,363 @@
-<div align="center">
-  <img src="assets/logo.png" alt="Schrödinger" width="500" />
-</div>
+<h2 align="center"><b>deepfake-detection-heuristics</b></h2>
 
-<br />
-
-<div align="center">
-<p>A state-of-the-art AI-powered deepfake forensics platform with multi-layer mathematical heuristics, agentic verification, live URL extraction, and real-time inference telemetry.</p>
-<br />
+<h4 align="center">Implementation of a multi-modal deep learning and agentic engine for deepfake forensics</h4>
 
 <p align="center">
-
-
-<a href="https://schrodinger-app.vercel.app/">
-<img src="https://img.shields.io/badge/🌐_Live_Demo-22C55E?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo"/>
-</a>
-<a href="LICENSE">
-<img src="https://img.shields.io/badge/License-MIT-7C3AED?style=for-the-badge&logo=opensourceinitiative&logoColor=white" alt="MIT License"/>
-</a>
-
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
-<img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow"/>
-<img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" alt="OpenCV"/>
-<img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" alt="HuggingFace"/>
-<img src="https://img.shields.io/badge/Mistral_AI-F472B6?style=for-the-badge&logo=mistral&logoColor=white" alt="Mistral AI"/>
-<img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI"/>
-<img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React"/>
-<img src="https://img.shields.io/github/last-commit/yuvanvishnupandi/schrodinger?style=for-the-badge"/>
-
+    <a href="https://github.com/yuvanvishnupandi/deepfake-detection-heuristics"><img src="https://img.shields.io/badge/GitHub-deepfake--detection--heuristics-181717?logo=github&style=flat-square" alt="GitHub Repo"></a>
+    <a href="https://schrodinger-app.vercel.app/"><img src="https://img.shields.io/badge/Live%20Demo-Vercel-success?logo=vercel&style=flat-square" alt="Live Demo"></a>
+    <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square" alt="MIT License"></a>
+    <img src="https://img.shields.io/badge/Python-3.11+-3776AB.svg?logo=python&logoColor=white&style=flat-square" alt="Python 3.11+">
+    <img src="https://img.shields.io/badge/PyTorch-2.0+-EE4C2C.svg?logo=pytorch&logoColor=white&style=flat-square" alt="PyTorch 2.0+">
+    <img src="https://img.shields.io/badge/HuggingFace-Transformers-FFD21E.svg?logo=huggingface&logoColor=black&style=flat-square" alt="HuggingFace">
+    <img src="https://img.shields.io/badge/FastAPI-0.110+-009688.svg?logo=fastapi&logoColor=white&style=flat-square" alt="FastAPI">
+    <img src="https://img.shields.io/badge/React-19-61DAFB.svg?logo=react&logoColor=black&style=flat-square" alt="React 19">
+    <img src="https://img.shields.io/badge/TailwindCSS-v4-38BDF8.svg?logo=tailwindcss&logoColor=white&style=flat-square" alt="Tailwind CSS">
+    <img src="https://img.shields.io/badge/Database-MongoDB%20Atlas-47A248.svg?logo=mongodb&logoColor=white&style=flat-square" alt="MongoDB Atlas">
 </p>
 
+---
 
-</div>
+Implementation of a multi-modal deep learning forensics framework in PyTorch and FastAPI. The engine couples spectral Fourier analysis, self-blended boundary heuristics, dense optical flow trajectories, WavLM self-supervised representations, phase coherence metrics, and vision-language agents (Pixtral / Gemini) into a unified, resolution-adaptive pipeline with mathematically calibrated abstention.
+
+Capable of analyzing video streams (`mp4`, `webm`, `avi`, `mov`), acoustic waveforms (`wav`, `mp3`, `m4a`, `ogg`), and high-resolution imagery (`jpg`, `png`, `webp`, `tiff`), either via direct file upload or via zero-friction URL extraction using `yt-dlp`.
 
 ---
 
-<div align="center">
-
-<table>
-  <tr>
-    <td><img src="assets/img1.png" width="400" style="border-radius:8px"/></td>
-    <td><img src="assets/img2.png" width="400" style="border-radius:8px"/></td>
-  </tr>
-  <tr>
-    <td><img src="assets/img3.png" width="400" style="border-radius:8px"/></td>
-    <td><img src="assets/img4.png" width="400" style="border-radius:8px"/></td>
-  </tr>
-  <tr>
-    <td><img src="assets/img5.png" width="400" style="border-radius:8px"/></td>
-    <td><img src="assets/img6.png" width="400" style="border-radius:8px"/></td>
-  </tr>
-</table>
-
-</div>
-
----
-
-## What you get
-
-<div align="center">
-<img src="assets/readme12.png" alt="Schrödinger — overview" width="100%" />
-</div>
-
-<details>
-<summary><b>See all features</b></summary>
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-#### 🤖 Multi-Layer Heuristic Engine
-
-- **Video Analysis** — Optical Flow tracking, FFT frequency variance, and SigLIP temporal coherence checks.
-- **Audio Diagnostics** — WavLM dynamics, MFCC phase analysis, and Griffin-Lim vocoder detection.
-- **Image Scanning** — High-frequency GAN grid detection and noise residual profiling.
-- **URL Extraction** — Seamlessly bypasses social media protections using yt-dlp to rip and analyze streams directly.
-
-</td>
-<td width="50%" valign="top">
-
-#### 🌿 Agentic Verdict Verification
-
-- **Vision LLM Integration** — Mistral Pixtral crosses-examines the generated telemetry.
-- **Transcript Analysis** — Fast-Whisper transcribes the audio to screen for coercive financial or urgency vectors (Fraud Risk).
-- **Absolute Scoring** — Employs strict mathematically calibrated standards to prevent false positives and bypass smooth diffusion tricks.
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-#### 💬 Live Forensics Terminal
-
-- **Real-Time Data** — See the backend calculations stream directly to your frontend console.
-- **Diagnostic Transparency** — No black boxes. See exactly which layer of the engine flagged the video and why.
-- **Dynamic Dossiers** — Download a complete forensic report of the media.
-
-</td>
-<td width="50%" valign="top">
-
-#### 🔐 Secure & Modern Platform
-
-- **Cloudflare Tunneled** — Bypasses all local network restrictions for extreme stability.
-- **Responsive Design** — Looks stunning on Desktop, Tablet, and Mobile with zero scrollbar cutoffs.
-- **Beautiful UI** — Designed with a premium hacker-style terminal aesthetic and micro-animations.
-
-</td>
-</tr>
-</table>
-
-</details>
-
-<br />
-
-## Get started
-
-```bash
-git clone https://github.com/yuvanvishnupandi/schrodinger.git
-cd schrodinger
-```
-
-Configure your MongoDB database and environment variables, then start the FastAPI backend and Vite frontend (see [Local Setup](#local-setup) below).
-
-<br />
-
-## 🛠️ Tech Stack
-
-<table align="center">
-<tr>
-<td align="center" width="150">
-<a href="https://react.dev">
-<img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/react.svg" width="60"><br><br>
-<b>React</b>
-</a>
-</td>
-
-<td align="center" width="150">
-<a href="https://python.org">
-<img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/python.svg" width="60"><br><br>
-<b>Python</b>
-</a>
-</td>
-
-<td align="center" width="150">
-<a href="https://fastapi.tiangolo.com">
-<img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/fastapi.svg" width="60"><br><br>
-<b>FastAPI</b>
-</a>
-</td>
-
-<td align="center" width="150">
-<a href="https://tensorflow.org">
-<img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/tensorflow.svg" width="60"><br><br>
-<b>TensorFlow</b>
-</a>
-</td>
-</tr>
-
-<tr>
-<td align="center" width="150">
-<a href="https://huggingface.co">
-<img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/huggingface.svg" width="60"><br><br>
-<b>HuggingFace</b>
-</a>
-</td>
-
-<td align="center" width="150">
-<a href="https://opencv.org/">
-<img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/opencv.svg" width="60"><br><br>
-<b>OpenCV</b>
-</a>
-</td>
-
-<td align="center" width="150">
-<a href="https://mongodb.com">
-<img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/mongodb.svg" width="60"><br><br>
-<b>MongoDB</b>
-</a>
-</td>
-
-<td align="center" width="150">
-<a href="https://tailwindcss.com">
-<img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/tailwindcss.svg" width="60"><br><br>
-<b>Tailwind CSS</b>
-</a>
-</td>
-</tr>
-
-<tr>
-<td align="center" width="150">
-<a href="https://vitejs.dev">
-<img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/vite.svg" width="60"><br><br>
-<b>Vite</b>
-</a>
-</td>
-
-<td align="center" width="150">
-<a href="https://vercel.com">
-<img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/vercel.svg" width="60"><br><br>
-<b>Vercel</b>
-</a>
-</td>
-
-<td align="center" width="150">
-<a href="https://cloudflare.com">
-<img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/cloudflare.svg" width="60"><br><br>
-<b>Cloudflare</b>
-</a>
-</td>
-
-<td align="center" width="150">
-<a href="https://github.com">
-<img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/github.svg" width="60"><br><br>
-<b>GitHub</b>
-</a>
-</td>
-</tr>
-</table>
-
-<br><br>
-
----
-
-<h2 id="architecture">🏛️ Overall system architecture</h2>
-
-The application follows a modern decoupled architecture consisting of the React presentation layer, FastAPI backend, Deep Learning models, and MongoDB database. Each component operates independently and communicates through REST APIs.
+## Architecture
 
 ```mermaid
-graph TD
+flowchart TD
+    subgraph IN["Input Ingestion Layer"]
+        A["Media Source<br/>(Local File Upload or Remote URL via yt-dlp)"]
+        B{"MIME Router"}
+        A --> B
+    end
 
-subgraph Client["Client Layer"]
-WebApp[React Web App]
-end
+    subgraph VID["Video Forensics Pipeline (Resolution-Adaptive)"]
+        V1["Frame Sampling Engine<br/>(Uniform Temporal Slicing)"]
+        V2{"Resolution Check<br/>(320p Threshold)"}
+        V_HIGH["High-Res Path (≥ 320p)<br/>• Google SigLIP Embeddings<br/>• 2D FFT Spectral Artifacts<br/>• Farneback Dense Optical Flow<br/>• MediaPipe Facial Asymmetry & Blinking"]
+        V_LOW["Low-Res Path (&lt; 320p)<br/>• Farneback Motion Trajectories<br/>• Landmark Jitter & Motion Velocity"]
+        V_ENS["Video Ensemble Calibrator"]
 
-subgraph Server["Application Layer"]
-API[FastAPI Server]
-YTDLP[URL Extractor]
-end
+        B -- "mp4 / webm / avi / mov" --> V1
+        V1 --> V2
+        V2 -- "≥ 320p" --> V_HIGH
+        V2 -- "&lt; 320p" --> V_LOW
+        V_HIGH --> V_ENS
+        V_LOW --> V_ENS
+    end
 
-subgraph AI["Deep Forensics Engine"]
-ORCH[Orchestrator]
-VIDEO[Video Telemetry]
-AUDIO[Audio Telemetry]
-LLM[Agentic Verification]
-end
+    subgraph AUD["Audio Forensics Pipeline (Multi-Layer)"]
+        A1["Acoustic Preprocessing<br/>(16kHz Mono / Pre-emphasis / Top-dB Trim)"]
+        A2["Layer 1: WavLM Embeddings<br/>(microsoft/wavlm-base-plus 768-d)"]
+        A3["Layer 2a: MFCC Prosody Analysis<br/>(40 MFCCs + Δ + Δ² Derivatives)"]
+        A4["Layer 2b: Multi-Band Spectral Envelope<br/>(Rolloff / Centroid / ZCR / RMS Variance)"]
+        A5["Layer 3: Phase Coherence & HNR<br/>(STFT Phase Variance + Inst. Frequency)"]
+        A6["Layer 4: Social Engineering Triage<br/>(Faster-Whisper ASR + 3-Tier NLP Cues)"]
+        A_ENS["Audio Ensemble Calibrator"]
 
-subgraph Database["Database Layer"]
-MYSQL[(MongoDB Atlas)]
-end
+        B -- "wav / mp3 / m4a / ogg" --> A1
+        A1 --> A2 & A3 & A4 & A5 & A6
+        A2 & A3 & A4 & A5 & A6 --> A_ENS
+    end
 
-WebApp --> API
+    subgraph IMG["Image Forensics Pipeline"]
+        I1["Spatial & Frequency Deconstruction"]
+        I2["Google SigLIP Semantic Entropy"]
+        I3["2D FFT High-Frequency Grid Spikes"]
+        I4["DIRE Noise Residual Profiling<br/>(Kurtosis & Skewness Drift)"]
+        I_ENS["Image Ensemble Calibrator"]
 
-API --> YTDLP
-API --> MYSQL
-API --> ORCH
+        B -- "jpg / png / webp / tiff" --> I1
+        I1 --> I2 & I3 & I4
+        I2 & I3 & I4 --> I_ENS
+    end
 
-ORCH --> VIDEO
-ORCH --> AUDIO
-ORCH --> LLM
+    subgraph AGENT["Agentic Verification & Synthesis"]
+        ORCH["Orchestrator Fusion Engine<br/>(Calibrated Weighting & Abstention Logic)"]
+        LLM["Vision-Language Agent Chain<br/>(Mistral Pixtral-12B → Gemini 1.5 Pro → GPT-4o → Groq LLaMA-3)"]
+        
+        V_ENS & A_ENS & I_ENS --> ORCH
+        ORCH --> LLM
+    end
 
-VIDEO --> OpenCV[OpenCV / SigLIP]
-AUDIO --> HF[HuggingFace WavLM]
+    subgraph OUT["Forensic Telemetry Dossier"]
+        REP["Calibrated Verdict (REAL / FAKE / INCONCLUSIVE)<br/>Multi-Layer Score Breakdown & Uncertainty STD<br/>Live SSE Terminal Stream & Court-Admissible Dossier"]
+        LLM --> REP
+    end
 ```
 
-<br />
+---
 
-## Diagnostic processing workflow
+## Forensic Heuristic Layers
 
-The following sequence diagram illustrates how media is processed from submission to full diagnosis.
+| Modality | Diagnostic Layer | Research / Physical Foundation | Primary Target |
+|:---|:---|:---|:---|
+| **Video** | **SigLIP Foundation** | *Zhai et al., 2023* | Semantic inconsistency and temporal patch boundary discontinuities |
+| **Video** | **2D FFT Spectral Analysis** | *Frank et al., ICML 2020* | High-frequency grid spikes from transposed convolution upsampling |
+| **Video** | **Dense Optical Flow** | *Farneback / Shiohara CVPR 2022* | Unnatural inter-frame motion vector acceleration and boundary warping |
+| **Video** | **Facial Asymmetry & Liveness** | *MediaPipe 468-pt Mesh* | Eye blink intervals, abnormal pupillary dynamics, micro-jitter |
+| **Audio** | **WavLM Foundation** | *Chen et al., IEEE JSTSP 2022* | 768-dim SSL acoustic embeddings for synthetic speaker manifold deviation |
+| **Audio** | **MFCC Naturalness ($\Delta, \Delta^2$)** | *Vocal Tract Acoustic Dynamics* | Static cepstral coefficients indicative of neural auto-regressive TTS |
+| **Audio** | **Spectral Envelope** | *HiFi-GAN / WaveGlow Artifacts* | Artificially smooth rolloff trajectories and periodic zero-crossing aliasing |
+| **Audio** | **Phase Coherence & HNR** | *Griffin-Lim / Neural Vocoders* | Phase angle variance collapse and harmonic-to-noise ratio degradation |
+| **Audio** | **Social Engineering NLP** | *Faster-Whisper + RBI Taxonomy* | Financial extortion, urgent OTP theft, legal coercion, and panic induction |
+| **Image** | **DIRE Noise Profiling** | *Wang et al., 2023* | PRNU sensor noise breakdown; unnatural residual kurtosis and skewness |
+| **Ensemble**| **Agentic Verification** | *Pixtral-12B / Gemini 1.5 Pro* | Multi-fallback LLM cross-examination of numerical telemetry into legal dossiers |
 
-```mermaid
-sequenceDiagram
+---
 
-actor User
-participant Frontend
-participant Backend
-participant AI
-participant Database
-
-User->>Frontend: Submit URL or Media File
-Frontend->>Backend: Send payload
-Backend->>AI: Trigger deep forensics pipeline
-AI->>AI: Heuristic models process frames/audio
-AI->>AI: Generate fraud intent and synthetic scores
-AI->>AI: Verify telemetry via LLM Agent
-AI-->>Backend: Return final calibrated dossier
-Backend->>Database: Save diagnosis history
-Backend-->>Frontend: Stream real-time terminal logs
-Frontend-->>User: Display forensics report
-```
-
-<br />
-
-## Core data flow
-
-1. User submits a URL or uploads a media file.
-2. The React frontend forwards the request to the FastAPI backend.
-3. The Orchestrator routes the media to the appropriate Vision/Audio layers.
-4. Mathematical heuristics (FFT, Optical Flow, MFCC) generate confidence scores.
-5. The processed diagnosis is verified by a Vision LLM to ensure accuracy.
-6. The user receives a comprehensive, real-time terminal output and forensic dossier.
-
-<br />
-
-<h2 id="multi-agent-ai-engine">🧠 Deep Forensics Engine</h2>
-
-The AI service is designed as a collection of specialized layers. Each layer performs a dedicated task, allowing the system to process media rapidly and thoroughly.
-
-<details>
-<summary><b>See all layers</b></summary>
-
-<br />
-
-- **Video Processing**
-  - Measures inter-frame jitter via dense Optical Flow.
-  - Generates GAN signatures using Fast Fourier Transforms (FFT).
-
-- **Audio Processing**
-  - Uses WavLM and MFCC Phase Analysis to detect AI voice cloning.
-  
-- **Agentic Verification**
-  - Employs Pixtral-12b to cross-examine telemetry and generate a human-readable summary.
-
-- **Fraud Intent Detection**
-  - Transcribes audio using Fast-Whisper and runs NLP to search for coercive, scam-like linguistics.
-
-</details>
-
-<br />
-
-<h2 id="local-setup">🚀 Local setup</h2>
+## Install
 
 ### Prerequisites
 
-- Node.js 18 or later
-- Python 3.11 or later
-- MongoDB Atlas account
+- Python 3.11+
+- Node.js 18+ (for frontend)
+- FFmpeg (installed and available on system `PATH`)
+- CUDA-enabled GPU (optional, automatic CPU fallback supported)
 
-### Clone repository
-
-```bash
-git clone https://github.com/yuvanvishnupandi/schrodinger.git
-cd schrodinger
-```
-
-<details>
-<summary><b>Backend setup</b></summary>
+### Setup
 
 ```bash
-cd backend
-pip install -r requirements.txt
-python -m uvicorn main:app --host 0.0.0.0 --port 8000
+# Clone the repository
+$ git clone https://github.com/yuvanvishnupandi/deepfake-detection-heuristics.git
+$ cd deepfake-detection-heuristics
+
+# Backend environment setup
+$ cd backend
+$ python -m venv venv
+$ source venv/bin/activate  # On Windows: .\venv\Scripts\activate
+$ pip install -r requirements.txt
+
+# Frontend environment setup
+$ cd ../frontend
+$ npm install
 ```
 
-</details>
+### Environment Configuration
 
-<details>
-<summary><b>Frontend setup</b></summary>
+Create a `.env` file in `backend/`:
+
+```env
+# Database
+MONGODB_URL=mongodb+srv://<username>:<password>@cluster.mongodb.net/schrodinger_db
+
+# LLM Providers (Multi-fallback chain: Mistral -> Gemini -> OpenAI -> Groq)
+MISTRAL_API_KEY=your_mistral_api_key
+GEMINI_API_KEY=your_gemini_api_key
+OPENAI_API_KEY=your_openai_api_key
+GROQ_API_KEY=your_groq_api_key
+```
+
+---
+
+## Usage
+
+### Programmatic Python Interface
+
+Each detector implements a standalone, clean API conforming to `BaseDetector`:
+
+```python
+from models.video_model import VideoDeepfakeDetector
+from models.audio_model import AudioDeepfakeDetector
+from models.image_model import ImageDeepfakeDetector
+from models.fraud_intent import FraudIntentDetector
+
+# 1. Video Deepfake Forensics
+video_detector = VideoDeepfakeDetector()
+video_result = video_detector.analyze("samples/target_video.mp4")
+
+print(f"Status:     {video_result.status}")      # 'REAL' | 'FAKE' | 'INCONCLUSIVE'
+print(f"Score:      {video_result.score:.3f}")   # 0.0 (Authentic) -> 1.0 (Manipulated)
+print(f"Confidence: {video_result.confidence:.3f}")
+print(f"Diagnostic: {video_result.reason}")
+
+# 2. Audio Vocal Cloning & Phase Analysis
+audio_detector = AudioDeepfakeDetector()
+audio_result = audio_detector.analyze("samples/target_voice.wav")
+print(f"Audio Score: {audio_result.score:.3f} | {audio_result.reason}")
+
+# 3. Static Image Forensic Scan
+image_detector = ImageDeepfakeDetector()
+image_result = image_detector.analyze("samples/target_portrait.png")
+print(f"Image Score: {image_result.score:.3f} | {image_result.reason}")
+
+# 4. Social Engineering & Intent Triage
+fraud_detector = FraudIntentDetector()
+fraud_result = fraud_detector.analyze("samples/target_voice.wav")
+print(f"Coercion Risk: {fraud_result.score:.3f} | {fraud_result.reason}")
+```
+
+### Launching the Full Stack
+
+#### Backend Server (FastAPI)
 
 ```bash
-cd frontend
-npm install
-npm run dev
+$ cd backend
+$ python -m uvicorn main:app --host 0.0.0.0 --port 8000 --reload
 ```
 
-</details>
+#### Frontend Client (React + Vite)
 
-<br />
+```bash
+$ cd frontend
+$ npm run dev
+```
 
-<h2 id="environment-variables">Environment variables</h2>
-<details>
-<summary><b>Full reference</b></summary>
+Visit `http://localhost:5173` to access the interactive forensics dashboard.
 
-<br />
+### API Ingestion Endpoints
 
-> Template based on the services in use — confirm exact variable names against your `.env.example` files before deploying.
+#### 1. Analyze Local Media File
 
-| Variable | Description | Where |
-|----------|-------------|-------|
-| `MONGODB_URL` | MongoDB connection string | `backend/.env` |
-| `GROQ_API_KEY` | Groq API Key | `backend/.env` |
-| `MISTRAL_API_KEY` | Mistral API Key | `backend/.env` |
-| `GEMINI_API_KEY` | Gemini API Key | `backend/.env` |
+```bash
+$ curl -X POST "http://localhost:8000/analyze/media" \
+  -H "accept: application/json" \
+  -F "file=@evidence_video.mp4"
+```
 
-</details>
+#### 2. Analyze Remote URL (YouTube / Twitter / TikTok via `yt-dlp`)
 
-<br />
+```bash
+$ curl -X POST "http://localhost:8000/analyze/url" \
+  -H "Content-Type: application/x-www-form-urlencoded" \
+  -d "url=https://www.youtube.com/watch?v=example"
+```
 
-## Data & storage
+#### 3. Real-Time Telemetry Stream
 
-- **Database** — MongoDB Atlas
-- **Uploads** — Temporary ephemeral processing
-- **Hosting** — Frontend on Vercel, Backend via Cloudflare Tunnels
+```bash
+$ curl -N "http://localhost:8000/logs"
+```
 
-<br />
+---
+
+## Mathematical Heuristics
+
+### 1. 2D Spectral Fourier Decomposition
+
+Generative upsampling operations (such as transposed convolution in ProGAN, StyleGAN, and latent diffusion decoders) introduce periodic spatial artifacts. We compute the 2D discrete Fourier transform on normalized image and video patches:
+
+$$F(u, v) = \sum_{x=0}^{M-1} \sum_{y=0}^{N-1} f(x, y) e^{-j 2\pi \left(\frac{ux}{M} + \frac{vy}{N}\right)}$$
+
+The 1D radially integrated power spectrum is obtained via azimuthal averaging:
+
+$$P(r) = \frac{1}{2\pi} \int_{0}^{2\pi} |F(r \cos\theta, r \sin\theta)|^2 d\theta$$
+
+Authentic photographic media exhibits a smooth $1/f^\alpha$ power-law frequency roll-off ($\alpha \approx 2$). Neural synthesis exhibits telltale high-frequency resonant peaks $\delta(r - r_0)$ caused by checkerboard interpolation grids.
+
+### 2. Dense Optical Flow Temporal Trajectories
+
+To expose facial reenactment and lip-sync artifacts, we compute dense optical flow fields across consecutive frames $(I_t, I_{t+1})$ using the Gunnar Farneback formulation:
+
+$$I(x + dx, y + dy, t + dt) \approx I(x, y, t)$$
+
+The temporal acceleration magnitude variance of the face bounding box relative to background anchors discriminates authentic continuous muscle contraction from frame-independent diffusion synthesis:
+
+$$\sigma_{\text{flow}}^2 = \frac{1}{T} \sum_{t=1}^{T} \left( \|\mathbf{v}_t\| - \bar{\mathbf{v}} \right)^2$$
+
+### 3. Acoustic Phase Coherence & Instantaneous Frequency
+
+Neural vocoders (e.g., HiFi-GAN, WaveGlow, MelGAN) synthesize time-domain audio by reconstructing phase through iterative algorithms (Griffin-Lim) or discriminator loss penalties. The Short-Time Fourier Transform phase angle $\phi(t, \omega)$ is differentiated across time to extract instantaneous frequency:
+
+$$\omega_{\text{inst}}(t, \omega) = \frac{\partial \phi(t, \omega)}{\partial t} \approx \text{unwrap}(\phi(t, \omega) - \phi(t-1, \omega))$$
+
+Natural vocal fold vibration creates stable, continuous harmonic phase trajectories with high Harmonic-to-Noise Ratio (HNR). Neural synthesis displays characteristic phase collapse ($\text{Var}(\phi) < 0.80$) and flattened group delay profiles.
+
+### 4. Calibrated Ensemble Fusion & Abstention
+
+Given a set of $K$ independent diagnostic layers producing votes $(s_k, w_k)$ where $s_k \in [0, 1]$ and $w_k > 0$:
+
+$$S_{\text{ensemble}} = \frac{\sum_{k=1}^K s_k \cdot w_k}{\sum_{k=1}^K w_k}, \quad \sigma_{\text{ensemble}} = \sqrt{\frac{1}{K}\sum_{k=1}^K (s_k - \bar{s})^2}$$
+
+Confidence is strictly calibrated as $C = \max(0, 1 - \sigma_{\text{ensemble}})$. The final forensic verdict follows a conservative policy:
+
+$$\text{Verdict} = \begin{cases} 
+\text{FAKE} & \text{if } S_{\text{ensemble}} \ge \tau_{\text{fake}} \text{ and } \sigma_{\text{ensemble}} < \tau_{\text{abstain}} \\
+\text{REAL} & \text{if } S_{\text{ensemble}} \le \tau_{\text{real}} \text{ and } \sigma_{\text{ensemble}} < \tau_{\text{abstain}} \\
+\text{INCONCLUSIVE} & \text{otherwise (abstain from high-risk false accusations)}
+\end{cases}$$
+
+---
+
+## Citations
+
+```bibtex
+@inproceedings{shiohara2022detecting,
+    title   = {Detecting Deepfakes with Self-Blended Images},
+    author  = {Kaede Shiohara and Toshihiko Yamasaki},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    year    = {2022},
+    pages   = {5611--5620}
+}
+```
+
+```bibtex
+@inproceedings{frank2020leveraging,
+    title   = {Leveraging Frequency Analysis for Deep Fake Image Recognition},
+    author  = {Joel Frank and Thorsten Eisenhofer and Lea Sch{\"o}nherr and Asja Fischer and Dorothea Kolossa and Thorsten Holz},
+    booktitle = {Proceedings of the 37th International Conference on Machine Learning (ICML)},
+    year    = {2020},
+    pages   = {3247--3258}
+}
+```
+
+```bibtex
+@article{chen2022wavlm,
+    title   = {WavLM: Large-Scale Self-Supervised Pre-Training for Full Stack Speech Processing},
+    author  = {Sanyuan Chen and Chengyi Wang and Zhengyang Chen and Yu Wu and Shujie Liu and Zhuo Chen and Jinyu Li and Naoyuki Kanda and Takuya Yoshioka and Xiong Xiao and Jian Wu and Sefik Emre Eskimez and Yanmin Qian and Baolin Peng and Furu Wei},
+    journal = {IEEE Journal of Selected Topics in Signal Processing},
+    volume  = {16},
+    number  = {6},
+    pages   = {1505--1518},
+    year    = {2022}
+}
+```
+
+```bibtex
+@inproceedings{wang2020cnn,
+    title   = {CNN-generated images are surprisingly easy to spot... for now},
+    author  = {Sheng-Yu Wang and Oliver Wang and Richard Zhang and Andrew Owens and Alexei A. Efros},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    year    = {2020},
+    pages   = {8695--8704}
+}
+```
+
+```bibtex
+@article{wang2023dire,
+    title   = {DIRE for Diffusion-Generated Image Detection},
+    author  = {Zhendong Wang and Jianmin Bao and Wengang Zhou and Weilun Wang and Hezhen Hu and Hong Chen and Houqiang Li},
+    journal = {arXiv preprint arXiv:2303.09295},
+    year    = {2023}
+}
+```
+
+```bibtex
+@article{zhai2023sigmoid,
+    title   = {Sigmoid Loss for Language Image Pre-Training},
+    author  = {Xiaohua Zhai and Basil Mustafa and Alexander Kolesnikov and Lucas Beyer},
+    journal = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+    year    = {2023},
+    pages   = {11975--11986}
+}
+```
+
+```bibtex
+@inproceedings{rossler2019faceforensics,
+    title   = {FaceForensics++: Learning to Detect Manipulated Facial Images},
+    author  = {Andreas R{\"o}ssler and Davide Cozzolino and Luisa Verdoliva and Christian Riess and Justus Thies and Matthias Nie{\ss}ner},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+    year    = {2019},
+    pages   = {1--11}
+}
+```
+
+---
 
 ## License
 
-Schrödinger is [MIT licensed](LICENSE).
+[MIT](LICENSE)
 
-<br />
-
-## 📚 Research & References
-
-The core heuristics and deep learning pipelines in Schrödinger are heavily inspired by foundational research in digital media forensics. Our engine implements concepts from the following peer-reviewed papers:
-
-1. **FaceForensics++: Learning to Detect Manipulated Facial Images** *(Rossler et al., 2019)*  
-   *Used as the primary structural basis for our EfficientNet-based spatial artifact detector.*
-2. **Exposing DeepFake Videos By Detecting Face Warping Artifacts** *(Li & Lyu, 2019)*  
-   *Informs our MTCNN geometric alignment and resolution-inconsistency checks.*
-3. **Wav2Vec 2.0 / WavLM For Speech Processing** *(Chen et al., 2022)*  
-   *Foundation for our audio temporal phase and frequency variance analysis.*
-4. **CNN-generated images are surprisingly easy to spot... for now** *(Wang et al., 2020)*  
-   *Provides the mathematical baseline for our High-Frequency GAN grid detection.*
-
-
+*“Truth is much too complicated to allow anything but approximations.”* — John von Neumann
